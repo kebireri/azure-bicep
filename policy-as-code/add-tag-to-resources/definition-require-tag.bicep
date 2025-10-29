@@ -1,5 +1,6 @@
 targetScope = 'subscription'
-resource policyTag 'Microsoft.Authorization/policyDefinitions@2025-03-01' = {
+
+resource addResourceTag 'Microsoft.Authorization/policyDefinitions@2025-03-01' = {
    name: 'addResourceTag'
    properties: {
      displayName: 'department'
@@ -18,3 +19,10 @@ resource policyTag 'Microsoft.Authorization/policyDefinitions@2025-03-01' = {
    }
     
 }
+
+
+/* To deploy this Bicep file, use the following Azure CLI command:
+  az deployment sub create \
+  --location <set-location> \
+  --template-file <file-name> 
+*/
