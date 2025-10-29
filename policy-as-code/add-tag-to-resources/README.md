@@ -49,4 +49,4 @@ This file creates a **policy assignment** that applies the definition across the
 - Gives the assignment a display name and description for easy tracking in the Azure Portal.
 
 **Purpose:**
-Defines *where* and *how* the policy is enforced — it activates the rule for real.
+Defines *where* and *how* the policy is enforced; it activates the rule for real.
